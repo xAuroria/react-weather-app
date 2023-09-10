@@ -1,21 +1,15 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
-import Search from "./Search";
-import Weather from "./Weather";
-import Forecast from "./Forecast";
-import Credit from "./Credit";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
 import "./styles.css";
+import "bootstrap/dist/css/bootstrap.css";
+import App from "./App";
 
-export default function App() {
-  return (
-    <div>
-      <div className="container">
-        <Search />
-        <Weather />
-        <Forecast />
-      </div>
-      <Credit />
-    </div>
-  );
-}
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
