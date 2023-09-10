@@ -1,0 +1,29 @@
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 30px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #606470;
+}
+
+.container {
+  border: 1px solid #606470;
+  padding: 40px;
+  margin: 80px auto;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to right, #868f96 0%, #596164 100%);
+}
+
+.active-unit {
+  color: black;
+}
+
+.inactive-unit {
+  color: #606470;
+}

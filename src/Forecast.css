@@ -1,0 +1,32 @@
+.forecast-line {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.forecast-title {
+  text-align: center;
+}
+
+.card-emoji {
+  font-size: 60px;
+  text-align: center;
+  height: 100%;
+}
+
+.forecast-text {
+  text-align: center;
+  color: #606470;
+}
+
+.current-forecast-card {
+  background: #ececec;
+}
+
+.forecast-card {
+  background: white;
+  transition: all 200ms ease-in-out;
+}
+
+.forecast-card:hover {
+  background: #ececec;
+}

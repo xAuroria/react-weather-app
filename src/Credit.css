@@ -1,0 +1,13 @@
+.credits {
+  text-align: center;
+  color: #32333f;
+}
+
+.credits-link {
+  color: #aeafb3;
+  padding-bottom: 15px;
+}
+
+.credits-link:hover {
+  color: #32333f;
+}

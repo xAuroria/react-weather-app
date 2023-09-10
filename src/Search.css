@@ -1,0 +1,13 @@
+.Search .search-bar {
+  margin-bottom: 10px;
+}
+
+.Search .btn {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .Search .search-bar {
+    width: 100%;
+  }
+}
