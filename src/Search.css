@@ -1,8 +1,17 @@
-.Search .search-bar {
+.row {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.search-title {
+  margin-bottom: 30px;
+}
+
+.search-bar {
   margin-bottom: 10px;
 }
 
-.Search .btn {
+.btn {
   margin-bottom: 10px;
 }
 

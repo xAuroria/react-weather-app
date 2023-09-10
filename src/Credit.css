@@ -6,6 +6,7 @@
 .credits-link {
   color: #aeafb3;
   padding-bottom: 15px;
+  text-decoration: none;
 }
 
 .credits-link:hover {

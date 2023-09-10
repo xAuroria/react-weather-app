@@ -7,13 +7,13 @@ export default function Credit() {
   return (
     <div className="credits">
       <a
-        href="https://github.com/xAuroria/weather-app"
+        href="https://github.com/xAuroria/react-weather-app"
         target="_blank"
         rel="noreferrer"
         className="credits-link"
       >
         Open-source code
-      </a>
+      </a>{" "}
       by Jessica St. Martin
     </div>
   );

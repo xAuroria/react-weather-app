@@ -20,7 +20,7 @@ export default function Weather() {
               <a href="#" className="celcius-default" id="celcius">
                 °C
               </a>{" "}
-              |
+              |{" "}
               <a href="#" id="fahrenheit">
                 °F
               </a>

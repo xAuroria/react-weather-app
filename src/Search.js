@@ -6,9 +6,9 @@ import "./Search.css";
 export default function Search() {
   return (
     <div>
-      <h1>5-Day Weather Forecast</h1>
+      <h1 className="search-title">5-Day Weather Forecast</h1>
       <div className="row">
-        <div className="col-9 search-bar">
+        <div className="col-xl-9 search-bar">
           <form id="city-search-form">
             <input
               type="text"
